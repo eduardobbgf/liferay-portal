@@ -44,62 +44,41 @@
     @include clay-css($table-head-cell-spaced);
 }
 
-.table-title .table-list-title {
-    @include clay-css($table-title);
-}
+.table-list { 
 
-.table-list > thead > tr > th {
-    @include clay-css($table-head-cell)
-}
+    .table-active > td {
+        @include clay-css($table-active)
+    }
 
-.table-list > tbody > tr > td {
-    @include clay-css($table-cell)
-}
+    thead > tr > th {
+        @include clay-css($table-head-cell)
+    }
 
-.table-list > tbody > tr > td {
-    @include clay-css($table-row-cell)
-}
+    tbody > tr > td {
+        @include clay-css($table-cell)
+    }
 
-.table-list.table-striped tbody tr:nth-of-type(odd) td {
-    @include clay-css($table-striped)
-}
+    thead:first-child tr:first-child th:first-child {
+        @include clay-css($table-header-first-cell)
+    }
 
-.table-list.table-hover tbody tr:hover td{
-    @include clay-css($table-hover)
-}
+    thead:first-child tr:first-child th:last-child {
+        @include clay-css($table-header-last-cell)
+    }
 
-.table-list thead:first-child tr:first-child th:first-child {
-    @include clay-css($table-header-first-cell)
-}
+    tbody:last-child tr:last-child td:last-child {
+        @include clay-css($table-last-cell)
+    }
 
-.table-list thead:first-child tr:first-child th:last-child {
-    @include clay-css($table-header-last-cell)
-}
-
-.table-list tbody:last-child tr:last-child td:last-child {
-    @include clay-css($table-last-cell)
-}
-
-.table-list tbody:last-child tr:last-child td:first-child {
-    @include clay-css($table-first-cell)
+    tbody:last-child tr:last-child td:first-child {
+        @include clay-css($table-first-cell)
+    }
 }
 
 .table-list-title a {
-    @include clay-css($table-title-link);
-
-    &:hover {
-        @include clay-css($table-title-link-hover)
-    }
+    @include clay-link($table-title-link);
 }
 
 .table-list:not(.table-sm, .table-lg) tbody tr td {
     @include clay-css($table-padding);
-}
-
-.table-list .table-active td {
-    @include clay-css($table-active);
-}
-
-.table-img {
-    @include clay-css($table-image)
 }

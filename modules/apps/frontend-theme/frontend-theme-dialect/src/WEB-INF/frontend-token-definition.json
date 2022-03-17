@@ -5064,7 +5064,7 @@
 							"type": "String"
 						},					
 						{
-							"defaultValue": "var(--body-color, #272833)",
+							"defaultValue": "var(--body-color)",
 							"editorType": "ColorPicker",
 							"label": "table-row-color-hover",
 							"mappings": [
@@ -5151,7 +5151,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "1.5",
+							"defaultValue": "1.5rem",
 							"label": "table-title-line-height",
 							"mappings": [
 								{
@@ -5268,7 +5268,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "1.5",
+							"defaultValue": "1.5rem",
 							"label": "table-header-cell-min-height",
 							"mappings": [
 								{
@@ -5316,7 +5316,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-header-line-height",
 							"mappings": [
 								{
@@ -5328,7 +5328,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-line-height",
 							"mappings": [
 								{
@@ -5406,7 +5406,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "50px",
+							"defaultValue": "3.125rem",
 							"label": "table-lg-header-cell-min-height",
 							"mappings": [
 								{
@@ -5418,7 +5418,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "1rem",
+							"defaultValue": "var(--spacer-3)",
 							"label": "table-lg-header-cell-padding-y",
 							"mappings": [
 								{
@@ -5466,7 +5466,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-lg-header-line-height",
 							"mappings": [
 								{
@@ -5478,7 +5478,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-lg-line-height",
 							"mappings": [
 								{
@@ -5556,7 +5556,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "50px",
+							"defaultValue": "3.125rem",
 							"label": "table-sm-header-cell-min-height",
 							"mappings": [
 								{
@@ -5616,7 +5616,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-sm-header-line-height",
 							"mappings": [
 								{
@@ -5628,7 +5628,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-sm-line-height",
 							"mappings": [
 								{
@@ -5658,7 +5658,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "24px",
+							"defaultValue": "1.5rem",
 							"label": "table-spaced-row-border-spacing",
 							"mappings": [
 								{
